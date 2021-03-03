@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin: 0px 25px;
+    border-bottom: 5px solid #002642;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.navigation {
+<<<<<<< HEAD
+    margin: 15px 5px;
+    padding-right: 1rem;
+    display: inline-block;
+}
+
+a {
+    font-family: 'Xanh Mono', monospace;
+    text-decoration: underline;
+    color:#002642;
+}
+
+a:hover {
+    text-decoration: underline 2px;
+}
+
+body {
+    background-color: #e5dada;
+}
+
+section {
+    margin: 50px 25px;
+    list-style: circle;
+}
+
+h1 {
+    margin: 25px 25px;
+    font-family: 'Xanh Mono', monospace;
+    color: #001642;
+}
+
+ul {
+    font-family: 'Xanh Mono', monospace;
+    list-style: circle;
+}
+
+.image {
+    float: left;
+    padding: 0px 10px 0px 0px;
+    max-width: 35%;
+    max-height: 25%
+}   
+=======
+    color: darkcyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+}
+
+.class-for-about {
+    color: white;
+    margin-top: 30px;
+}
+
+.class-for-courses {
+    color: white;
+    margin-top: 30px;
+
+}
+
+.topnav {
+    background-color: beige;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.image {
+    float: left;
+    padding: 0px 20px 0px 0px;
+    max-width: 35%;
+    height: auto
+}
+>>>>>>> 926b77fa69b0438c39af81deaefeab002a81681e
