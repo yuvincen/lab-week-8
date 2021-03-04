@@ -1,88 +1,66 @@
-* {
-    margin: 0;
-    padding: 0;
+.container {
+    display: grid;
+    grid-template-rows: 3rem 50rem 3rem;
+    grid-template-columns: 10rem 1fr;
+    grid-template-areas:
+    'header header header'
+    'sidebar content content'
+    'footer footer footer';
+    }
+
+.header {
+    grid-area: header;
+    background-color: #6E8783;
+    display: flex;
 }
 
-nav {
-    margin: 0px 25px;
-    border-bottom: 5px solid #002642;
+.header a{
+    color: #334259;
 }
 
-nav ul {
-    list-style: none;
+.header .navigation:hover{
+    background-color: #DB504A;
 }
 
-.navigation {
-<<<<<<< HEAD
-    margin: 15px 5px;
-    padding-right: 1rem;
-    display: inline-block;
+.footer {
+    grid-area: footer;
+    background-color: #DB504A;
+    padding: 1rem;
 }
 
-a {
-    font-family: 'Xanh Mono', monospace;
-    text-decoration: underline;
-    color:#002642;
+.sidebar {
+    grid-area: sidebar;
+    background-color: #334259;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 2rem;
 }
 
-a:hover {
-    text-decoration: underline 2px;
+.content {
+    grid-area: content;
+    background-color: #edddd0;
+    font-size: medium;
+    padding: 2rem;
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    flex-direction:column;
+    width:auto;
 }
 
-body {
-    background-color: #e5dada;
+.navigation a{
+    color: #EDDDD0;
+    font-size: medium;
+    font-family: 'Secular One', sans-serif;
 }
 
-section {
-    margin: 50px 25px;
-    list-style: circle;
+.course1 a{
+    color: #edddd0;
+    font-size: medium;
 }
 
-h1 {
-    margin: 25px 25px;
-    font-family: 'Xanh Mono', monospace;
-    color: #001642;
-}
-
-ul {
-    font-family: 'Xanh Mono', monospace;
-    list-style: circle;
-}
-
-.image {
-    float: left;
-    padding: 0px 10px 0px 0px;
+img {
     max-width: 35%;
-    max-height: 25%
-}   
-=======
-    color: darkcyan;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 30px;
+    max-height: auto;
+    display: block;
 }
-
-.class-for-about {
-    color: white;
-    margin-top: 30px;
-}
-
-.class-for-courses {
-    color: white;
-    margin-top: 30px;
-
-}
-
-.topnav {
-    background-color: beige;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.image {
-    float: left;
-    padding: 0px 20px 0px 0px;
-    max-width: 35%;
-    height: auto
-}
->>>>>>> 926b77fa69b0438c39af81deaefeab002a81681e
